@@ -1,1 +1,25 @@
 # new-videos
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>videos</title>
+  <style>
+    body{margin:0;background:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    header{padding:12px 16px;font-size:18px;border-bottom:1px solid #eee}
+    .container{padding:16px}
+    .video{max-width:420px;margin:0 auto;background:#000;aspect-ratio:16/9;border-radius:10px;cursor:pointer;position:relative}
+    .video:after{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);border-top:16px solid transparent;border-bottom:16px solid transparent;border-left:26px solid #fff;margin-left:6px}
+  </style>
+</head>
+<body>
+
+<header>videos for you</header>
+
+<div class="container">
+  <div class="video" onclick="location.href='https://lite.tiktok.com/t/ZS9J2pG6tBWrG-ulFk7/'"></div>
+</div>
+
+</body>
+</html>
